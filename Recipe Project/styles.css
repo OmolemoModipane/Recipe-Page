@@ -1,0 +1,130 @@
+* {
+  padding: 10;
+  margin: 40;
+  box-sizing: border-box;
+}
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+body {
+  background-color: whitesmoke;
+}
+header {
+  height: 100vh;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3pNaTho3qnz3aO8cSd-8Sv7kDWmNB9qcU8Q&usqp=CAU);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  text-decoration: wavy;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+  transform: translateY(100px);
+  animation: slideUp 0.8s ease forwards 0.5s;
+}
+p1 {
+  text-align: center;
+  font-style: italic;
+}
+.button {
+  background-color: rebeccapurple;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.center2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center2:hover {
+  background-color: white;
+}
+li {
+  display: flex;
+}
+h3 {
+  text-align: left;
+  font-size: 30px;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+h2 {
+  text-shadow: black;
+  color: #e11727;
+  transform: translateY(100px);
+  animation: slideUp 0.8s ease forwards 0.5s;
+}
+hr {
+  border-top: 1px dotted red;
+}
+h4 {
+  color: #e11727;
+}
+.checked {
+  color: orange;
+  display: flex;
+}
+span {
+  display: flex;
+}
+.content {
+  display: end;
+}
+.directions_container {
+  display: flex;
+  width: 900px;
+}
+.social_container {
+  background-color: black;
+}
+
+@keyframes slideUp {
+  50% {
+    transform: translateY(300px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
